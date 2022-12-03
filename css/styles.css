@@ -1,5 +1,13 @@
+body{
+    margin: 0px;
+    text-align: center;
+}
+
+
 .top-container{
     background-color: #E4F9F5;
+    position: relative;
+    padding: 100px;
     
 }
 
@@ -17,4 +25,17 @@
     height: 200px;
     width: 200px;
     background-color: red;
+}
+
+.bottom-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.top-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+    
 }
