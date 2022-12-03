@@ -1,0 +1,20 @@
+.top-container{
+    background-color: #E4F9F5;
+    
+}
+
+.intial_margin{
+    margin: 0px;
+}
+
+.middle-container{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+}
+
+.bottom-container{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
