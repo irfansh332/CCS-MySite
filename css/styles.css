@@ -2,15 +2,39 @@ body {
     margin: 0px;
     text-align: center;
     font-family: 'Merriweather', serif;
+    font-size: 200%;
 }
 
 h1 {
-    font-family: 'Parisienne', cursive;;
+    /*margin-top: 50px;*/
+    margin: 50px auto 0 auto;
+    font-family: 'Parisienne', cursive;
+    color: #66BFBF;
+    line-height: 2;
+    /****Fixed or Static size of fonts (Fixed or Static means if you change prefrence of font size from browser it will be same)***/
+    /*font-size: 90px; */
+
+    /****Dynamic size of fonts (Dynamic means if you change prefrence of font size from browser it will not be same)***/
+    /*font-size: 562.5%;*/ /* 100% means 16px. So for 90px 90px/16px*100 = 562.5%*/
+    /*font-size: 5.625em;*/ /* 1em means 16px. So for 90px 90px/16px = 5.625em*/
+    font-size: 5.625rem; /* Above shown both the Dynamic size types will be affected by upstream size changes.
+                           But, if we use rem (root em) it will not be affected by upstream size changes. 
+                           1rem means 16px. So for 90px 90px/16px = 5.625rem*/
 }
 
-h2,
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem; /* equivalent to 40px*/ 
+    color: #66BFBF;
+    font-weight: normal;
+}
 h3 {
     font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+a {
+    color: #11999E;
 }
 
 .top-container {
@@ -25,18 +49,18 @@ h3 {
 }
 
 .bottom-container {
-    =
+    
 }
 
 .top-cloud {
     position: absolute;
-    right: 450px;
+    right: 300px;
     top: 50px;
 }
 
 .bottom-cloud {
     position: absolute;
-    left: 400px;
+    left: 300px;
     bottom: 400px;
 
 }
