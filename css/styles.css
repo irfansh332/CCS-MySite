@@ -2,7 +2,7 @@ body {
     margin: 0px;
     text-align: center;
     font-family: 'Merriweather', serif;
-    font-size: 200%;
+    
 }
 
 h1 {
@@ -37,6 +37,10 @@ a {
     color: #11999E;
 }
 
+.irfan-image{
+    width: 15%;
+}
+
 .top-container {
     background-color: #E4F9F5;
     position: relative;
@@ -64,3 +68,32 @@ a {
     bottom: 400px;
 
 }
+
+.skill-row{
+    
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.windchill-image{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.java-image{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+/*
+.windchill-skill-row-description{
+    clear: left;
+}
+
+.java-skill-row-description{
+    clear: right;
+}
+*/
